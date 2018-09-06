@@ -1,11 +1,11 @@
-package com.luifer.dynamicduck.models.behaviors;
+package com.luifer.dynamicduck.models.behaviors.fly;
 
 import android.util.Log;
 
 import com.luifer.dynamicduck.Constants;
-import com.luifer.dynamicduck.models.behaviors.base.FlyBehavior;
+import com.luifer.dynamicduck.models.behaviors.base.FlyBaseBehavior;
 
-public class FlyWithWings extends FlyBehavior {
+public class FlyWithWings extends FlyBaseBehavior {
 
     @Override
     public void fly() {
