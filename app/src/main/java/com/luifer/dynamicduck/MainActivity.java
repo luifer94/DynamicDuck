@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             item.play();
         });
 
-        /// Or perform one single behavior if it is added
+        /// Or perform the desired behavior if it has been added
         mallardDuck.performBehavior(FlyBaseBehavior.class.getSimpleName());
     }
 }

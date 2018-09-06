@@ -37,6 +37,7 @@ public abstract class Animal {
     }
 
     public boolean isInWhiteList(String keyBehavior) {
+        //return true statement is set to true because due the specifications we want a dynamics
         if (whiteList == null || whiteList.isEmpty()) return true;
         return whiteList.containsKey(keyBehavior);
     }
